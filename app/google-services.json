@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1023967293657",
+    "firebase_url": "https://fb-tutorial-4-18-19.firebaseio.com",
+    "project_id": "fb-tutorial-4-18-19",
+    "storage_bucket": "fb-tutorial-4-18-19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023967293657:android:858bfcef479ec589",
+        "android_client_info": {
+          "package_name": "com.example.sdenna.firebasetutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023967293657-dne0daa4iah0opuujuuasi5f7s0lr7el.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sdenna.firebasetutorial",
+            "certificate_hash": "2f4e653fc84441d02f3f826b1338d946c8c2109e"
+          }
+        },
+        {
+          "client_id": "1023967293657-cr4clk0e5pds547mttkagpc92si59iii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdzJcYGhb1kI75QQwim6Z2sIZk3CaoLE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023967293657-cr4clk0e5pds547mttkagpc92si59iii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    tools:context=".LoginActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:padding="@dimen/activity_padding">
+
+        <TextView
+            android:layout_columnSpan="2"
+            android:text="Log in Activity"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/title_text_size"/>
+
+
+        <TextView
+            android:id="@+id/textViewUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="100dp"
+            android:text="User Name:  " />
+
+        <EditText
+            android:width="@dimen/editText_width"
+            android:id="@+id/editTextUserName"/>
+
+
+        <TextView
+            android:id="@+id/textViewPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="100dp"
+            android:text="Password:  " />
+
+
+        <EditText
+            android:width="@dimen/editText_width"
+            android:id="@+id/editTextPassword"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:onClick="onClickVerifyLogin"/>
+
+        <Button
+            android:text="Cancel"
+            android:id="@+id/buttonCancel"
+            android:onClick="onClickCancel"/>
+
+    </GridLayout>
+</LinearLayout>

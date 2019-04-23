@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+
+    tools:context=".CreateAccountActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="4"
+        android:padding="@dimen/activity_padding"
+        >
+
+        <TextView
+            android:layout_columnSpan="2"
+            android:text="Create Account Activity"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/title_text_size"/>
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="100dp"
+            android:text="Name:  " />
+
+        <EditText
+            android:width="@dimen/editText_width"
+            android:id="@+id/editTextName"/>
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="100dp"
+            android:text="Email:  " />
+
+        <EditText
+            android:width="@dimen/editText_width"
+            android:id="@+id/editTextEmail"/>
+
+        <TextView
+            android:id="@+id/textViewUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="100dp"
+            android:text="Username:  " />
+
+        <EditText
+            android:width="@dimen/editText_width"
+            android:id="@+id/editTextUserName"/>
+
+        <TextView
+            android:id="@+id/textViewPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="100dp"
+            android:text="Password:  " />
+
+        <EditText
+            android:width="@dimen/editText_width"
+            android:id="@+id/editTextPassword"/>
+
+        <Button
+            android:text="Sign up"
+            android:id="@+id/buttonSignup"
+            android:onClick="onClickCreateAccount"/>
+
+        <Button
+            android:text="Cancel"
+            android:id="@+id/buttonCancel"
+            android:onClick="onClickCancel"/>
+
+        <TextView
+            android:layout_columnSpan="2"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/error_text_size"
+            android:id="@+id/errorMessageTextView"/>
+
+    </GridLayout>
+
+</LinearLayout>
