@@ -9,7 +9,7 @@
     tools:context=".DisplayDataActivity">
 
     <TextView
-        android:text="Welcome!"
+        android:text="Welcome from your Collaborator!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
