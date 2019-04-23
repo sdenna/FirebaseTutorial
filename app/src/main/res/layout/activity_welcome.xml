@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="200dp"
-        android:text="Welcome, how are you?"
+        android:text="@string/welcome_message"
         android:gravity="center_horizontal"
         android:textSize="24sp"/>
 
